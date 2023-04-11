@@ -1,0 +1,80 @@
+@use "./vendor/normalize";
+@use "./partials/colors";
+@use "./partials/mixins";
+@use "./partials/typography";
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    float: right;
+  }
+  li a {
+    display: block;
+    padding: 14px;
+    background-color: #000000;
+    color: white;
+    text-decoration-color:white;
+  }
+  .navBarWrapper {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  .bar {
+    height: 8.02%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bar li {
+    display: inline-block;
+  }
+  h3{
+    float: left;
+    display: block;
+    padding: 14px;
+    font-size: 14px;
+    background-color: #000000;
+    color: white;
+    text-decoration-color:white;
+  }
+  .flex-container {
+    display: flex;
+    background-color: white;
+    align-items: center;
+  }
+  
+  .flex-container > div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .buttons {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    
+  }
+  .title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:600;
+  }
+  .leftflex {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+.discover{
+  color:#ffae42;
+  font-family:fantasy;
+}
+.lorem{
+  color:lightgray;
+  font-weight:200;
+}
+.about{
+  color:#ffae42
+}
